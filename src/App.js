@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Jogo from './Jogo';
 import Letras from './Letras';
-import palavras from './Palavras';
+import palavras from './palavras';
 import forca0 from "./assets/imgs/forca0.png";
 import forca1 from "./assets/imgs/forca1.png";
 import forca2 from "./assets/imgs/forca2.png";
