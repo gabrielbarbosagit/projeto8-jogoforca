@@ -1,0 +1,114 @@
+* body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .jogo-container {
+    width: 100%;
+    padding-top: 40px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+
+  
+  .imagens-forca img {
+    height: 50vh;
+  }
+  
+  .escolher-palavra {
+    height: 50vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .escolher-palavra button {
+    width: 15vw;
+    height: 8vh;
+    border-radius: 8px;
+    background-color: #209645;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .escolher-palavra button:hover {
+    background-color: #3ca066;
+  }
+  
+  .palavraEscolhida {
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+    letter-spacing: 5px;
+  }
+  
+  .container-letras{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .letras {
+    width: 45vw;
+    height: 13vh;
+    margin-top: 30px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .letras button {
+    margin-right: 5px;
+  }
+  
+  .letras-nao-selecionadas{
+    width: 3vw;
+    height: 5vh;
+    border-radius: 3px;
+    background-color: #e1ecf4;
+    border: 1px solid #7aa7c7;
+    font-size: 16px;
+    color: #39739d;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .letras-selecionadas {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 3px;
+    background-color: #9faab5;
+    border: 1px solid #7aa7c7;
+    font-size: 16px;
+    color: #798a9f;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .perdeu {
+    color: red;
+  }
+  
+  .ganhou {
+    color: green;
+  }
+
+  
